@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 1% 20% 2% 20%;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #C0DAC1;
+}
+
+header {
+    margin: 0 auto;
+    width: 850px;
+    min-width: 150px;
+    border-radius: 5px;
+    background-color: #167D1A;
+}
+
+.navmenu ul {
+    list-style: none;
+}
+
+.navmenu li {
+    display: inline-block;
+}
+
+.navmenu a {
+    display: block;
+    padding: 15px 10px;
+    width: 100px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.navmenu a:hover {
+    background-color: #63C666;
+}
+
+h3 {
+    margin: 2% auto;
+    padding: 5px;
+    color: #084D0A;
+}
+
+.divinfo {
+    margin: 30px auto;
+    padding: 18px;
+    width: 850px;
+    min-width: 150px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #F9FFF9;
+}
+
+.pskills {
+    margin: 10px auto;
+    padding: 8px;
+    width: 750px;
+    min-width: 150px;
+    box-sizing: border-box;
+    border: solid 1px #54B557;
+    border-radius: 5px;
+    background-color: #F9FFF9;
+}
+
+img {
+    margin: 0 auto;
+    padding: 15px;
+    width: 370px;
+    min-width: 150px;
+}
+
+.cv {
+    margin: 30px auto;
+    padding: 5px;
+    width: 850px;
+    min-width: 150px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #F9FFF9;
+}
+
+table {
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #F9FFF9;
+}
+
+.data {
+    padding: 8px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #D5D5D5;
+}
+
+.skills, .edu {
+    padding: 5px;
+    width: 70%;
+    border: solid 1px #54B557;
+    border-radius: 5px;
+}
+
+form {
+    margin: 0 auto;
+    padding: 5px;
+    width: 850px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #F9FFF9;
+}
+
+.formdiv {
+    padding: 10px;
+}
+
+label, input[type="text"], input[type="email"], textarea {
+    display: inline-block;
+    padding: 5px;
+    width: 270px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    margin: 10px 5px 20px 5px;
+    padding: 8px 10px;
+    font-family : inherit;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #167D1A;
+}
+
+button:active {
+    color: #000000;
+    background-color: #63C666;
+}
+
+footer {
+    margin: 2% auto;
+    padding: 10px;
+    font-size: small;
+    width: 850px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #167D1A;
+}
